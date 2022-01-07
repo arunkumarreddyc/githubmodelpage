@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+      }
+      .main {
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        width: 80%;
+      }
+      .item1 {
+        height: 70px;
+        display: flex;
+        flex-flow: row;
+        justify-content: baseline;
+        padding-left: 25px;
+        align-items: center;
+
+        background-color: #2f3d46;
+        text-align: center;
+      }
+      .title {
+        margin-left: 40%;
+        font-weight: bolder;
+        color: #cad2c5;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+      }
+      .item2 {
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+
+        align-content: center;
+        justify-content: space-around;
+        background-color: rgb(209, 214, 194);
+      }
+      .sub1 {
+        margin: 10px 10px;
+        width: 250px;
+        background-color: #353535;
+        border-radius: 20px;
+        
+      }
+      .sub2 {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        
+        width: 700px;
+      }
+      .content1 {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: stretch;
+        height: 40px;
+        background-color: #353535;
+        margin-left: 20px;
+        margin-right: 30px;
+        border-radius: 10px;
+      }
+      .content2 {
+        height: 30%;
+        display: flex;
+
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .content3 {
+        height: 30%;
+        border-radius: 15px;
+        background-color: #353535;
+        margin-right: 10px;
+      }
+      .article1 {
+        background-color: #353535;
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 170px;
+        border-radius: 15px;
+      }
+      .article2 {
+        background-color: #353535;
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 170px;
+        border-radius: 15px;
+      }
+      .article3 {
+        background-color: #353535;
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 170px;
+        border-radius: 15px;
+      }
+      input {
+        background-color: #353535;
+        border: none !important;
+        color: #fff !important;
+      }
+      input:hover {
+        border: none !important;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="item1">
+        <div>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            width="40"
+            alt="github logo"
+          />
+        </div>
+        <div class="title">GIT HUB</div>
+      </div>
+      <div class="item2">
+        <div class="sub1"></div>
+        <div class="sub2">
+          <div class="content1"><input type="search" value="Search" /></div>
+          <div class="content2">
+            <div class="article1"></div>
+            <div class="article2"></div>
+            <div class="article3"></div>
+          </div>
+          <div class="content3"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
